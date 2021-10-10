@@ -1,0 +1,22 @@
+{
+    "experi_para":{
+        "model_name":"TEXTCNN",
+        "description":"TEST测试"
+    },
+    "train_para":{
+        "class_num": 2,
+        "learning_rate": 0.001,
+        "optimal_model": "adam",
+        "epoch": 5,
+        "batch_size":32,
+        "max_len":32
+    },
+    "embedding":{
+        "embedding_path":"./shopping_reviews/data/embedding/sgns.renmin.bigram.w2v"
+    },
+    "model_para":{
+        "kernel_num": 16,
+        "kernel_size": [1, 2, 3, 4, 5],
+        "dropout": 0.5
+    }
+}
